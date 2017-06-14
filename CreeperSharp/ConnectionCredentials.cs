@@ -7,7 +7,7 @@ namespace CreeperSharp
 
         public string Key { get; private set; }
 
-        public string Secret { get; }
+        public string Secret { get; private set; }
 
         public void SetKey(string value)
         {
@@ -16,7 +16,7 @@ namespace CreeperSharp
 
         public void SetSecret(string value)
         {
-            Key = ValidateCredential(value);
+            Secret = ValidateCredential(value);
         }
 
         public ConnectionCredentials(string key, string secret)

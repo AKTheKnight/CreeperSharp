@@ -1,5 +1,5 @@
-﻿using System.Diagnostics;
-using CreeperSharp;
+﻿using CreeperSharp;
+using CreeperSharp.responses.server;
 
 namespace CreeperSharpTesting
 {
@@ -7,18 +7,32 @@ namespace CreeperSharpTesting
     {
         static void Main(string[] args)
         {
-            var credentials = new ConnectionCredentials(
-                key: "s59303b72a4f85@AKTheNite.playat.ch", 
-                secret: "19f27de6732afa69a6afebb3776add9957024628a5390ff046132c5dfcd6b236843bb55484ab6244176d7408a643cfc68948b2d1960499b8ef02beaaf6999160");
+            CreeperClient client;
+            ConnectionCredentials credentials = new ConnectionCredentials("api_ key", "api_secret");
+
+            client = new CreeperClient(credentials);
+
+            CPU cpu = client.GetCPU();
+
+            string model = cpu.Model;
+
+
+
+
+
+
+            /*string key = Environment.GetEnvironmentVariable("key");
+            string secret = Environment.GetEnvironmentVariable("secret");
+
+
+            var credentials = new ConnectionCredentials(key, secret);
 
             var client = new CreeperClient { Credentials = credentials };
 
             var cpu = client.GetCPU();
             var hdd = client.GetHDD();
             var ram = client.GetRAM();
-            var net = client.GetNet();
-
-            Debug.Write("SDAKh");
+            var net = client.GetNet();*/
         }
     }
 }
