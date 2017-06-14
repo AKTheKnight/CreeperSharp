@@ -17,6 +17,11 @@ CreeperSharp is a C# library that allows interfacing with the official CreeperHo
 		* Allows scheduling of commands
 		* Allows accessing billing data
 
+## TO DO LIST
+
+* Finish implementing the remainder of the CreeperHost API
+* Create a form app for the management of a CreeperHost server
+
 ## Implementing
 Below is a basic example of how to use the CreeperSharp library. This is just a subset of the capabilities of the API
 
