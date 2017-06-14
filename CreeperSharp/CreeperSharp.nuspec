@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>CreeperSharp</id>
+    <version>1.0.0.2</version>
+    <title>CreeperSharp</title>
+    <authors>AKTheKnight</authors>
+    <owners>AKTheKnight</owners>
+    <licenseUrl>https://gist.github.com/AKTheKnight/d38af2a39a4dd837c71d921ac79137f6</licenseUrl>
+    <projectUrl>https://github.com/AKTheKnight/CreeperSharp</projectUrl>
+    <iconUrl>https://avatars2.githubusercontent.com/u/7502848</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A C# implementation of the CreeperHost API</description>
+    <releaseNotes>First test upload</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>Creeper Host CreeperHost CreeperSharp API AKTheKnight AK Alex</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="10.0.2" />
+      <dependency id="RestSharp" version="105.2.3" />
+    </dependencies>
+  </metadata>
+</package>

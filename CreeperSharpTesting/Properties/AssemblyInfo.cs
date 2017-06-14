@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CreeperSharp")]
+[assembly: AssemblyTitle("CreeperSharpTesting")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CreeperSharp")]
+[assembly: AssemblyProduct("CreeperSharpTesting")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("9f27f9d5-d621-4323-b849-9e5c4e08d1f5")]
+[assembly: Guid("82d779cc-856e-4f2e-b9bc-fdbe0508c133")]
 
 // Version information for an assembly consists of the following four values:
 //

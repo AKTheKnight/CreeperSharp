@@ -5,6 +5,11 @@ VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreeperSharp", "CreeperSharp\CreeperSharp.csproj", "{9F27F9D5-D621-4323-B849-9E5C4E08D1F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreeperSharpTesting", "CreeperSharpTesting\CreeperSharpTesting.csproj", "{82D779CC-856E-4F2E-B9BC-FDBE0508C133}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9F27F9D5-D621-4323-B849-9E5C4E08D1F5} = {9F27F9D5-D621-4323-B849-9E5C4E08D1F5}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +20,10 @@ Global
 		{9F27F9D5-D621-4323-B849-9E5C4E08D1F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F27F9D5-D621-4323-B849-9E5C4E08D1F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F27F9D5-D621-4323-B849-9E5C4E08D1F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82D779CC-856E-4F2E-B9BC-FDBE0508C133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82D779CC-856E-4F2E-B9BC-FDBE0508C133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82D779CC-856E-4F2E-B9BC-FDBE0508C133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82D779CC-856E-4F2E-B9BC-FDBE0508C133}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
